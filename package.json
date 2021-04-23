@@ -1,0 +1,9 @@
+{
+  "name": "discord-bot-js-template",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "datsfilipe <datsfilipe@gmail.com>",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
