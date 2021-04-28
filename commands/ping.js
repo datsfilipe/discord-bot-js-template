@@ -1,5 +1,5 @@
 // processing command
-module.exports.run = async (bot, message, params)=> {
+module.exports.run = async (bot, message)=> {
   // passing info log for console
   console.log(`the user ${message.author.username} is running command ping.js`);
   message.channel.send("Getting . . .").then ( m => {
@@ -10,5 +10,6 @@ module.exports.run = async (bot, message, params)=> {
 module.exports.config = {
   "name": "ping",
   "cooldown": 10,
-  "description": "the command show the actual ping",
+  "category": "utils",
+  "description": "this command show the actual ping",
 };

@@ -25,7 +25,7 @@ fs.readdir("./commands/", (err, files) => {
     let command_name = file.split(".")[0];
     bot.commands.set(command_name, props);
     console.log(`command ${command_name} been loaded now . . .`);
-  })
-})
+  });
+});
 
 bot.login(process.env.TOKEN); // login into discord
