@@ -22,5 +22,5 @@ yarn install
 
 ##### Observations
 ```js
-console.log("The code bot template is written with javascript using discord.js main library && the bot is for discord, of course");
+console.log("The code is under mit license");
 ```
