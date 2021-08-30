@@ -1,26 +1,42 @@
-# Discord bot template
+# JS DISCORD BOT TEMPLATE
 
-### Description
+<p align="center">
+  <img width="220" src="./assets/open-folder.svg">
+</p>  
 
- > You can clone this repo and paste in any place of your computer, install dependencies and finally you can program your bot from this code! accelerate the process of creation with this.
+<p style="font-size: 13px" align="center">
+  <a href="https://iconscout.com/icons/arrow" target="_blank">Code Line Icon</a> on <a href="https://iconscout.com">Iconscout</a>
+</p>
 
- ### Dependencies
+## Description
 
- - node
- - npm or yarn
- ### Installation
+<p align="justify">
+  This project is a default template of Discord bot using Node with JavaScript.</a>.
+</p>
 
- - You need to install the dependencies of bot, you do it with:
- ```bash
-npm install
- ```
+### Technologies
 
- - or:
+1. <a href="https://nodejs.org/" >Node</a>
+2. <a href="https://discord.js.org/" >Discord.js</a> - v. 12.5.3
+
+### Running project
+
+<p align="justify">
+  Observe that you should have Node installed. Just type the following in your terminal:
+</p>
+
 ```bash
-yarn install
- ```
+# Clone the git repository
+$ git clone <https://github.com/datsfilipe/discord-bot-js-template.git>
 
-##### Observations
-```js
-console.log("The code is under mit license");
+# Enter the folder created by git clone
+$ cd discord-bot-js-template
+
+# Install dependencies with yarn
+$ yarn
+
+# Run app in development mode
+$ node .
+# or
+$ node bot.js
 ```
