@@ -11,7 +11,7 @@
 ## Description
 
 <p align="justify">
-  This project is a default template of Discord bot using Node with JavaScript.</a>.
+  This project is a default template of Discord bot using Node with JavaScript.</a>
 </p>
 
 ### Technologies
